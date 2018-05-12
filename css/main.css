@@ -7,9 +7,6 @@ Light Grey: #f5f5f5;
 Dark Grey: #585858;
 
 Font-families:
-
-
-
 */
 
 body {
@@ -26,4 +23,61 @@ a, a:hover {
 
 input:focus, textarea:focus {
 	outline: none;
+}
+
+#carousel1 {
+	height: 500px;
+}
+
+#carousel2 {
+	height: 300px;
+	width: 100%;
+}
+
+.slide1 {
+	background-color: gray;
+	height: 500px;
+}
+
+.slide2 {
+	background-color: gray;
+	height: 500px;
+}
+
+.slide3 {
+	background-color: gray;
+	height: 500px;
+}
+
+#carousel2 img {
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+}
+
+.recommended {
+	display: flex;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: 1px solid white;
+	background-color: black;
+}
+
+.column {
+	display: flex;
+	width: 200px;
+	flex-direction: column;
+	margin: 5px;
+	border: 1px solid white;
+	padding: 2px;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer p {
+	color: white;
 }
