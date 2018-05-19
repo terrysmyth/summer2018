@@ -27,3 +27,13 @@ a, a:hover {
 input:focus, textarea:focus {
 	outline: none;
 }
+
+.titleAboutPage h2 {
+	font-size: 80px;
+	text-align: center;
+
+}
+
+.informationAbout p {
+	text-align: left;
+}
