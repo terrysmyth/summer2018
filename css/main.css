@@ -143,3 +143,54 @@ input:focus, textarea:focus {
 .footer p {
 	color: white;
 }
+
+/* cell number */	
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+/* ABOUT PAGE */
+
+
+.titleAboutPage h2 {
+	font-size: 80px;
+	text-align: center;
+
+}	
+
+.informationAbout p {
+	text-align: left;
+}
+
+.aboutSection {
+	padding:50px 20px;
+	background-color: #f5f5f5;
+}
+
+
+.aboutImage{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 400px;
+}
+.aImage1{
+	background-image: url(https://i.redd.it/vn7a1x85wvo01.jpg);
+}
+
+.aImage2{
+	background-image: url(https://i.redd.it/vn7a1x85wvo01.jpg);
+}
+
+.aboutImage h3{
+	padding: 25px;
+}
+
+.aboutImage p{
+	padding: 0 25px;
+}
