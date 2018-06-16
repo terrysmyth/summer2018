@@ -17,7 +17,7 @@ starWars.ttf
 /* Main */
 
 body {
-align-items: center;
+	align-items: center;
 }
 
 * {
@@ -29,6 +29,38 @@ a, a:hover {
 }
 
 input:focus, textarea:focus {
+	outline: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+	border-bottom: 2px solid #ffe819;
+	background-color: #000 !important;
+	font-size: 25px;
+}
+
+.navbar .nav-link {
+	color: #ffe819 !important;
+	font-size: 20px;
+}
+
+.navbar-brand{
+	color: #ffe819 !important;
+	font-size: 25px;
+}
+
+.navbar .nav-link:hover {
+	opacity: 0.7 !important;
+}
+
+.navbar-toggler {     
+	background-color: #ffe819; 
+}
+
+.navbar-toggler:active, 
+.navbar-toggler:hover, 
+.navbar-toggler:focus {
 	outline: none;
 }
 
@@ -204,3 +236,4 @@ input:focus, textarea:focus {
 .aboutImage p{
 	padding: 0 25px;
 }
+
