@@ -9,8 +9,10 @@ Dark Grey: #585858;
 Font-families:
 */
 
+/* Main */
+
 body {
-align-items: center;
+	align-items: center;
 }
 
 * {
@@ -57,6 +59,8 @@ input:focus, textarea:focus {
 	outline: none;
 }
 
+/* Carousel 1*/
+
 #carousel1 {
 	height: 500px;
 }
@@ -72,6 +76,7 @@ input:focus, textarea:focus {
 	background-size: cover;
 }
 
+
 .slide1 {
 	background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2014/09/Wood-Shes-No-Bucket-of-Bolts-2400x1200-472263955138.jpg);
 }
@@ -84,6 +89,8 @@ input:focus, textarea:focus {
 	background-image: url(http://www.sandaworld.com/images_mov/em066.jpg);
 }
 
+/* Carousel 2 - Recommended*/
+
 #carousel2 img {
 	height: 50px;
 	width: 50px;
@@ -94,41 +101,79 @@ input:focus, textarea:focus {
 	display: flex;
 }
 
+/* Top Selling */
+
+.topSelling {
+	background-color: #f5f5f5;
+	margin-top: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.topSellingInner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.topSellingInner img {
+	width: 300px;
+	height: 200px;
+	border: 3px solid #000;
+	margin-right:  
+}
+
+/* Footer */
+
 .footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	border: 1px solid white;
 	background-color: black;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#currentYear {
+	color: #FFF;
+}
+
+.footer h4 {
+	color: #FFF;
 }
 
 .column {
 	display: flex;
+	flex-wrap: wrap;
 	width: 200px;
+	height: 175px;
 	flex-direction: column;
 	margin: 5px;
-	border: 1px solid white;
 	padding: 2px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.logoRow {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+.logoRow img {
+	margin-left: 5px;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
 .footer p {
 	color: white;
-}
-
-/* Flickity */
-.carousel-cell {
-  width: 18%;
-  height: 150px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-.carousel-cell.is-selected {
-  background: #ED2;
 }
 
 /* cell number */	
